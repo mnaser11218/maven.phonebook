@@ -3,7 +3,7 @@
 * **Purpose** - To establish familiarity `Map`
 
 ## Getting Started
-* Fork and clone this repository to complete your lab. Submit each part with a Pull Request for a separate branch.
+* Fork and clone this repository to complete your lab.
 
 ## Instructions:
 
