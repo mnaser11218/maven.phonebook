@@ -12,7 +12,7 @@ public class ReverseLookupTest {
         String expectedName = "John";
         String phoneNumber = "302-555-4545";
         advancedPhoneBook.add(expectedName, phoneNumber);
-        Assert.assertTrue(advancedPhoneBook.hasEntry(phoneNumber));
+       Assert.assertTrue(advancedPhoneBook.hasEntry(phoneNumber));
 
         // when
         String actualName = advancedPhoneBook.reverseLookup(phoneNumber);
