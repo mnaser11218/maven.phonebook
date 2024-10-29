@@ -1,5 +1,7 @@
 package com.github.curriculeon;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -7,14 +9,18 @@ import java.util.Map;
  * Created by leon on 1/23/18.
  */
 public class AdvancedPhoneBook {
+    private Map<String, List<String>> phonebook = new HashMap<>();
+
     public AdvancedPhoneBook(Map<String, List<String>> map) {
+        this.phonebook = map;
     }
 
     public AdvancedPhoneBook() {
-        this(null);
+
     }
 
     public void add(String name, String phoneNumber) {
+
     }
 
     public void addAll(String name, String... phoneNumbers) {
@@ -40,6 +46,6 @@ public class AdvancedPhoneBook {
     }
 
     public Map<String, List<String>> getMap() {
-        return null;
+        return this.phonebook;
     }
 }
